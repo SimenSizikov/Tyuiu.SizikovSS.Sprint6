@@ -245,9 +245,11 @@
             Controls.Add(groupBox_Input_SSS);
             Controls.Add(groupBox_Output_SSS);
             Controls.Add(groupBox_Uslovie_SSS);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainForm";
+            SizeGripStyle = SizeGripStyle.Hide;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 2 | Вариант 4 | Cизиков С.С.";
             Load += MainForm_Load;
