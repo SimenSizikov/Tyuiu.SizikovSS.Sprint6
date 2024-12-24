@@ -68,7 +68,6 @@ namespace Tyuiu.SizikovSS.Sprint6.Task3.V6
                 dataGridView_Massive_SSS.Columns[i].Width = 50;
             }
 
-            for (int i = 0; i < columns; i++) dataGridView_Massive_SSS.Columns[i].Width = 35;
 
             for (int i = 0; i < rows; i++)
             {
