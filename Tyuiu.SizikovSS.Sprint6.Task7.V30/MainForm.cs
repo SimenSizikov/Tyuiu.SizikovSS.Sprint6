@@ -16,7 +16,7 @@ namespace Tyuiu.SizikovSS.Sprint6.Task7.V30
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
-        private void ButtonOpen_NovikovDS_Click(object sender, EventArgs e)
+        private void ButtonOpen_SSS_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
@@ -70,7 +70,7 @@ namespace Tyuiu.SizikovSS.Sprint6.Task7.V30
             }
         }
 
-        private void ButtonChange_NovikovDS_Click(object sender, EventArgs e)
+        private void ButtonChange_SSS_Click(object sender, EventArgs e)
         {
             if (dataGridViewIn_SSS.Rows.Count == 0)
             {
@@ -104,11 +104,11 @@ namespace Tyuiu.SizikovSS.Sprint6.Task7.V30
             for (int i = 0; i < columnCount; i++) dataGridViewOut_SSS.Columns[i].Width = 35;
         }
 
-        private void ButtonSave_NovikovDS_Click(object sender, EventArgs e)
+        private void ButtonSave_SSS_Click(object sender, EventArgs e)
         {
             try
             {
-                using (StreamWriter writer = new StreamWriter(filePath))
+                using (StreamWriter writer = new StreamWriter(@"C:\Users\simen\source\repos\Tyuiu.SizikovSS.Sprint6\OutPutFileTask7.csv"))
                 {
                     int rowCount = matrixOut.GetLength(0);
                     int columnCount = matrixOut.GetLength(1);

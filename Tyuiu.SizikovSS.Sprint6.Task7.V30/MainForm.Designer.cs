@@ -64,6 +64,7 @@
             button_Change_SSS.TabIndex = 2;
             button_Change_SSS.Text = "Преобразовать";
             button_Change_SSS.UseVisualStyleBackColor = true;
+            button_Change_SSS.Click += ButtonChange_SSS_Click;
             // 
             // button_Open_SSS
             // 
@@ -74,6 +75,7 @@
             button_Open_SSS.TabIndex = 3;
             button_Open_SSS.Text = "Открыть";
             button_Open_SSS.UseVisualStyleBackColor = true;
+            button_Open_SSS.Click += ButtonOpen_SSS_Click;
             // 
             // button_Save_SSS
             // 
@@ -84,6 +86,7 @@
             button_Save_SSS.TabIndex = 4;
             button_Save_SSS.Text = "Сохранить";
             button_Save_SSS.UseVisualStyleBackColor = true;
+            button_Save_SSS.Click += ButtonSave_SSS_Click;
             // 
             // MainForm
             // 
@@ -97,6 +100,7 @@
             Controls.Add(dataGridViewIn_SSS);
             Name = "MainForm";
             Text = "Спринт 6 | Таск 7 | Вариант 30 | Cизиков С.С.";
+            Click += ButtonSave_SSS_Click;
             ((System.ComponentModel.ISupportInitialize)dataGridViewIn_SSS).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewOut_SSS).EndInit();
             ResumeLayout(false);

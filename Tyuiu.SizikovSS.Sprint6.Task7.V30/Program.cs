@@ -1,3 +1,6 @@
+using System.IO;
+using tyuiu.cources.programming.interfaces.Sprint6;
+
 namespace Tyuiu.SizikovSS.Sprint6.Task7.V30
 {
     internal static class Program
