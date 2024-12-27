@@ -30,7 +30,7 @@ namespace Tyuiu.SizikovSS.Sprint6.Task6.V26.Lib
 
         public string CollectTextFromFile(string path)
         {
-            //тут код
+            throw new NotImplementedException();
         }
     }
 }
