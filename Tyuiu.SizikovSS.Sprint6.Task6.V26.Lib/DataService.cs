@@ -22,10 +22,15 @@ namespace Tyuiu.SizikovSS.Sprint6.Task6.V26.Lib
                     // Добавляем последнее слово к результату
                     result += words[words.Length - 1] + " ";
                 }
-                
+
             }
 
             return result = result.TrimEnd();
+        }
+
+        public string CollectTextFromFile(string path)
+        {
+            //тут код
         }
     }
 }
