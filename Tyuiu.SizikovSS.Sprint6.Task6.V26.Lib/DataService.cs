@@ -4,7 +4,7 @@ namespace Tyuiu.SizikovSS.Sprint6.Task6.V26.Lib
 {
     public class DataService : ISprint6Task6V26
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
             string stringValues = File.ReadAllText(path); //взяли путь
             string result = "";
@@ -26,11 +26,6 @@ namespace Tyuiu.SizikovSS.Sprint6.Task6.V26.Lib
             }
 
             return result = result.TrimEnd();
-        }
-
-        public string CollectTextFromFile(string path)
-        {
-            return "HlidZPHKeLLU OoyPFhjSRwp GUilXww iukCfO UaZNpcgYjw";
         }
     }
 }
